@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    font-family: Inter, sans-serif;
+    color: white;
+    font-weight: 800;
+}
+#coming-soon{
+    text-align: center;
+    padding-top: 20vh;
+    font-size: 100px;
+}
+
+#home{
+    filter: invert();
+    height: 50px;
+    padding-left: 100px;
+    padding-top: 35px;
+    transition: transform 0.3s ease;
+}
+#home:hover{
+    transform: translateY(-5px);
+}
